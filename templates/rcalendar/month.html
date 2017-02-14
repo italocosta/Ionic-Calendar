@@ -6,7 +6,7 @@
                 <thead>
                 <tr>
                     <th ng-repeat="day in view.dates.slice(0,7) track by day.date">
-                        <small>{{::day.date | date: formatDayHeader}}</small>
+                        <small>{{::day.date | date: formatDayHeader : timezone}}</small>
                     </th>
                 </tr>
                 </thead>
