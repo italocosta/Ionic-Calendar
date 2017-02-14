@@ -2,7 +2,8 @@ angular.module("ui.rCalendar.tpls", ["templates/rcalendar/calendar.html","templa
 angular.module('ui.rCalendar', ['ui.rCalendar.tpls'])
     .constant('calendarConfig', {
         formatDay: 'dd',
-        formatDayHeader: '''EEE' : 'pt_BR''',
+        timezone: 'pt_BR',
+        formatDayHeader: 'EEE',
         formatDayTitle: 'MMMM dd, yyyy',
         formatWeekTitle: 'MMMM yyyy, Week w',
         formatMonthTitle: 'MMMM yyyy',
